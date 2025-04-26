@@ -9,5 +9,7 @@ import guru.springframework.springaifunctions.model.Question;
  */
 public interface OpenAIService {
 
+    Answer getStockPrice(Question question);
+
     Answer getAnswer(Question question);
 }
